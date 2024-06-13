@@ -11,6 +11,9 @@
 <div align="center">
   <sub>Course. Built with ❤️ by gdpp
 </div>
+<div align="center">
+&nbsp
+</div>
 
 <img src="https://leblogduwebmaster.fr/data/medias/astro_js.jpg" alt="banner" />
 
