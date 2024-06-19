@@ -17,6 +17,42 @@
 
 <img src="https://leblogduwebmaster.fr/data/medias/astro_js.jpg" alt="banner" />
 
+## 🚀 Astro
+
+-   Framework to create content-oriented sites, it offers the following features
+
+1. Optimized performance (super fast)
+2. Developer experience
+3. SEO friendly
+4. Modern ECMAScript and Typescript
+5. Extensibility and Customization
+6. Grows according to need
+
+**With astro you can create**
+
+-   Static Site Generation (Code generated at construction time)
+-   Server Side Rendering
+-   Hybrid
+-   Multi-Page applications
+-   Client-side rendering
+
+**Astro also offers:**
+
+1. Server actions
+2. Astro DB
+3. View transitions
+4. pre-fetch
+5. vite
+6. Middlewares
+7. Much more
+
+**Astro cons**
+
+1 SPAs are not your approach for this it is better to use traditional frameworks.
+2 The community is growing but it is not that big yet.
+3 Interactivity is a manual work that depends on vanilla javascript/typescript or UI framwork (islands).
+4 Integrating frameworks or UI libraries requires the foundations of those technologies.
+
 ## Table of Contents
 
 -   [Course Structure](#structure)
@@ -30,7 +66,7 @@
 
 ## Beginner
 
--   [Astro Foundation](foundation/README.md)
+-   [Astro Foundation](1-foundation/README.md)
 
 <!-- ## Intermediate
 

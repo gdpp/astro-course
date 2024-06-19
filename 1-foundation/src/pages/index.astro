@@ -1,0 +1,19 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+
+// Server only
+const title = 'Home page';
+const name = 'Gustavo Daniel Perez Perez';
+---
+
+<MainLayout title={title}>
+    <h1>{name}</h1>
+    <p>Current time static: {new Date().toLocaleTimeString()}</p>
+    <p id="cTime">Current time:</p>
+
+    <script>
+        // Client only
+        const cTime = document.querySelector('#cTime') as HTMLElement;
+        cTime.innerText = `Current time dynamic: ${new Date().toLocaleTimeString()}`;
+    </script>
+</MainLayout>
