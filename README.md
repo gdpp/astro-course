@@ -67,6 +67,7 @@
 ## Beginner
 
 -   [Astro Foundation](1-foundation/README.md)
+-   [Pokemon Static](2-pokemon-static/README.md)
 
 <!-- ## Intermediate
 
