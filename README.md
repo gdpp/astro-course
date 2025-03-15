@@ -9,7 +9,7 @@
 </div>
 
 <div align="center">
-  <sub>Course. Built with ❤️ by gdpp
+  <sub>Made with ❤️ by gdpp
 </div>
 <div align="center">
 &nbsp
@@ -48,7 +48,7 @@
 
 **Astro cons**
 
-1 SPAs are not your approach for this it is better to use traditional frameworks.
+1 SPAs (single page application) are not your approach for this it is better to use traditional frameworks.
 2 The community is growing but it is not that big yet.
 3 Interactivity is a manual work that depends on vanilla javascript/typescript or UI framwork (islands).
 4 Integrating frameworks or UI libraries requires the foundations of those technologies.
@@ -61,17 +61,21 @@
 ## Structure
 
 -   [Beginner](#beginner)
-<!-- -   [Intermediate](#intermediate)
--   [Advanced](#advanced) -->
+<!-- 
+-   [Intermediate](#intermediate)
+-   [Advanced](#advanced) 
+-->
 
 ## Beginner
 
--   [Astro Foundation](1-foundation/README.md)
+-   [Astro Foundation](01-foundation/README.md)
 -   [Pokemon Static](2-pokemon-static/README.md)
 
-<!-- ## Intermediate
+<!-- 
+## Intermediate
 
-## Advanced -->
+## Advanced 
+-->
 
 ## Documentation
 

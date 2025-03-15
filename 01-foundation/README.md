@@ -27,7 +27,7 @@ Inside of your Astro project, you'll see the following folders and files:
 │   └── components/
 │       └── NavBar.astro
 │   └── layouts/
-│       └── MainLayout.astro
+│       └── BaseLayout.astro
 │   └── pages/
 │       └── 404.astro
 │       └── about.astro
