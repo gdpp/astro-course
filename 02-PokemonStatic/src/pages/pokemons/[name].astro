@@ -1,8 +1,10 @@
 ---
 import type { GetStaticPaths } from "astro";
 
+import { Icon } from 'astro-icon/components';
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PokemonCard from "@components/PokemonCard.astro";
+import Title from "@components/Title.astro";
 
 
 export const getStaticPaths = (async () => {
@@ -27,14 +29,22 @@ const audioSrc = `https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pok
 ---
 
 <BaseLayout title="">
-    <section class="mt-10 mx-10 flex flex-col justify-center items-center">
-        <div>
-            <a href="/" class="hover:underline hover:text-amber-400 hover:font-bold">Go back</a>
-            <h1 class="text-5xl capitalize">{name}</h1>
+    <section class="mt-2 mx-10 flex flex-col justify-center items-center">
+        <div class="flex flex-row items-center m-1">
+            <div>
+                <Title>
+                    {name}
+                </Title>
+            </div>
+            <button class="ml-4 hover:animate-pulse">
+                <Icon name="heart-empty" size={50}/>
+                <Icon class="hidden" name="heart-full" size={50}/>
+            </button>
         </div>
         <PokemonCard name={name} url={url} isBig/>
         <audio controls class="mt-5">
             <source src={audioSrc} type="audio/ogg">
         </audio>
+        <button onclick="history.back()" class="text-blue-700 bg-amber-50 rounded p-2 mt-2 w-1/4">Go back</button>
     </section>
 </BaseLayout>

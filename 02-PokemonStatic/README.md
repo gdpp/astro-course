@@ -1,6 +1,6 @@
 # Pokemon Static
 
-This is a very interesting section because we will learn to create pages by advanced for our static website, this includes functionalities as: 
+This is a very interesting section because we will learn to create pages by advanced for our static website, this includes functionalities this section, we'll start adding a little dynamism to our website. Specifically, we'll cover:
 
 -   Animations between screens
 -   Generation of 151 pages at construction time
@@ -11,6 +11,23 @@ This is a very interesting section because we will learn to create pages by adva
 -   Interfaces and typing
 -   Basic metatags for SEO (title, description and image)
 -   Tests when sharing links on social networks
+-   JavaScript and TypeScript scripts in Astro components
+-   LocalStorage and its potential drawbacks
+-   Islands
+-   Integrations
+-   SolidJS as a UI Framework
+-   Signals
+-   Props
+-   Children
+-   Show
+-   For
+-   Vanilla JavaScript
+-   Persisting state between navigation
+-   Videos
+-   Island state
+-   Prop state
+-   Sending Astro components to islands
+-   Icons
 
 ## 🚀 Project Structure
 

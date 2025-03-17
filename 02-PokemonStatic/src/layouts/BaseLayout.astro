@@ -8,6 +8,7 @@ import { ClientRouter } from "astro:transitions";
 const {title} = Astro.props;
 
 import "../styles/global.css";
+import Navbar from "@components/Navbar.astro";
 ---
 
 <!DOCTYPE html>
@@ -18,8 +19,9 @@ import "../styles/global.css";
 	<title>{title}</title>
     <ClientRouter />
 </head>
-<body class="bg-blue-950 text-slate-100 m-auto max-w-3xl">
-    <main class="mt-3">
+<body class="bg-blue-950 text-slate-100">
+    <Navbar />
+    <main class="mt-1 m-auto max-w-3xl">
         <slot />
     </main>
 </body>
