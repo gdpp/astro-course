@@ -1,0 +1,24 @@
+---
+import '../styles/global.css';
+import '../styles/blog.css';
+import { ClientRouter } from "astro:transitions";
+
+const {title, ...rest } = Astro.props;
+const frontmatter = rest.frontmatter;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{frontmatter.title}</title>
+    <ClientRouter />
+</head>
+<body class="bg-gray-950">
+    <a href="/"> Home</a>
+    <main class="mb-10 max-w-5xl m-auto px-2">
+        <slot />
+    </main>
+</body>
+</html>
