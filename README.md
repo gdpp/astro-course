@@ -61,8 +61,8 @@
 ## Structure
 
 -   [Beginner](#beginner)
-<!-- 
 -   [Intermediate](#intermediate)
+<!-- 
 -   [Advanced](#advanced) 
 -->
 
@@ -71,10 +71,11 @@
 -   [Astro Foundation](01-foundation/README.md)
 -   [Pokemon Static](02-PokemonStatic/README.md)
 -   [Blog](03-Blog/README.md)
+-   [Themes](04-Themes/README.md)
 
-<!-- 
 ## Intermediate
 
+<!-- 
 ## Advanced 
 -->
 
